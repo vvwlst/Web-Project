@@ -356,3 +356,85 @@ nav a:hover{
     padding: 5px 10px;
   }
 }
+
+.stats-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.stats-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.stat {
+  margin-bottom: 18px;
+}
+
+.stat span {
+  float: left;
+  color: #ff3333;
+}
+
+.stat b {
+  float: right;
+  color: #ff3333;
+}
+
+.bar {
+  clear: both;
+  height: 10px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #ff0000, #ff5555);
+  box-shadow: 0 0 10px #ff3333;
+  transition: width 1.5s ease;
+}
+
+/* HEALTH */
+.health-box {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.health-box span {
+  color: #ff3333;
+  display: block;
+}
+
+.health-box strong {
+  font-size: 20px;
+  color: #ff3333;
+}
+
+.health-bar {
+  height: 14px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+#healthFill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #ff0000, #ff9900);
+  box-shadow: 0 0 15px red;
+  transition: width 0.5s linear;
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .stats-section {
+    padding: 40px 15px;
+  }
+}
