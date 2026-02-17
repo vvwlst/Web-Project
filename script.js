@@ -39,3 +39,42 @@ window.addEventListener("scroll",()=>{
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const healthBar = document.getElementById("health");
+  const healthText = document.getElementById("health-text");
+
+  // Cegah error kalau elemen tidak ada
+  if (!healthBar || !healthText) return;
+
+  let health = 100;
+
+  function updateHealth() {
+    // simulasi realtime data (acak ringan)
+    const randomDrop = Math.floor(Math.random() * 4); // 0–3
+    health -= randomDrop;
+
+    if (health <= 0) {
+      health = 100; // reset
+    }
+
+    // update UI
+    healthBar.style.width = health + "%";
+    healthText.textContent = health + "%";
+
+    // warna berdasarkan kondisi
+    if (health > 60) {
+      healthBar.style.background = "lime";
+    } else if (health > 30) {
+      healthBar.style.background = "orange";
+    } else {
+      healthBar.style.background = "red";
+    }
+  }
+
+  // jalankan pertama kali
+  updateHealth();
+
+  // realtime tiap 1 detik
+  setInterval(updateHealth, 1000);
+});
