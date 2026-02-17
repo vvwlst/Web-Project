@@ -324,3 +324,36 @@ nav a:hover{
     height: 24px;
   }
 }
+
+.discord-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.discord-tags span {
+  font-size: 13px;
+  color: #5865F2;
+  background: rgba(88, 101, 242, 0.12);
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid rgba(88, 101, 242, 0.4);
+  transition: 0.3s ease;
+}
+
+.discord-tags span:hover {
+  background: #5865F2;
+  color: #fff;
+  box-shadow: 0 0 12px rgba(88, 101, 242, 0.8);
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .discord-tags span {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
