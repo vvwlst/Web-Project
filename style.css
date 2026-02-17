@@ -234,3 +234,47 @@ nav a:hover{
     max-width: 260px;
   }
 }
+
+.about-section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+
+  background: 
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url("img/background.png") center / cover no-repeat;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  max-width: 720px;
+  margin: 0 auto 50px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* ZxG PNG */
+.zxg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zxg-logo img {
+  width: 320px;
+  max-width: 90%;
+  height: auto;
+  opacity: 0.95;
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .zxg-logo img {
+    width: 240px;
+  }
+}
