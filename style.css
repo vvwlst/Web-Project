@@ -69,7 +69,7 @@ nav a:hover{
 
 /* SOCIAL */
 .social a{
-  color:white;
+  color: #1e3a8a; /* biru tua */
   font-size:1.6rem;
   margin-right:15px;
   transition:.3s;
@@ -119,4 +119,118 @@ nav a:hover{
 @media(max-width:768px){
   .hero{flex-direction:column;text-align:center}
   .image img{margin-top:30px}
+}
+
+.image-list {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.image-list .img {
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
+  transition: 0.3s ease;
+}
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 80px 40px;
+  gap: 40px;
+}
+
+/* KIRI */
+.left {
+  max-width: 480px;
+}
+
+.left h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.left p {
+  opacity: 0.85;
+  margin-bottom: 25px;
+}
+
+.statistic {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* WRAPPER GAMBAR */
+.stat-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* GAMBAR */
+.stat-images img {
+  width: 120px;
+  border-radius: 14px;
+  box-shadow: 0 0 18px rgba(0,0,0,.6);
+  transition: 0.3s ease;
+}
+
+/* HOVER */
+.stat-images img:hover {
+  transform: scale(1.1);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .stat-images img {
+    width: 90px;
+  }
+}
+
+.statistic-section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.statistic-text {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* BARIS GAMBAR */
+.statistic-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap; /* penting biar aman di HP */
+}
+
+.statistic-images img {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0, 51, 102, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.statistic-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 51, 102, 0.9);
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .statistic-images img {
+    width: 70%;
+    max-width: 260px;
+  }
 }
