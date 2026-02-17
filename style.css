@@ -278,3 +278,49 @@ nav a:hover{
     width: 240px;
   }
 }
+
+.discord-box {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 60px;
+}
+
+.discord-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: rgba(88, 101, 242, 0.15);
+  border: 1px solid #5865F2;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #5865F2;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  transition: 0.3s ease;
+}
+
+.discord-link img {
+  width: 28px;
+  height: 28px;
+}
+
+.discord-link:hover {
+  background: #5865F2;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(88, 101, 242, 0.8);
+}
+
+/* HP */
+@media (max-width: 768px) {
+  .discord-link {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .discord-link img {
+    width: 24px;
+    height: 24px;
+  }
+}
