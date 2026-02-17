@@ -511,3 +511,61 @@ nav a:hover{
     height: 24px;
   }
 }
+
+/* SOCIAL MEDIA BAR */
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin: 40px auto 60px;
+  padding: 14px 18px;
+
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(6px);
+  border-radius: 18px;
+  width: fit-content;
+  max-width: 92%;
+}
+
+/* ITEM */
+.social-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #cfe9ff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+}
+
+/* ICON */
+.social-item img {
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(0 0 6px rgba(0,200,255,0.6));
+}
+
+/* HOVER */
+.social-item:hover {
+  color: #00eaff;
+  transform: translateY(-2px);
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .social-container {
+    gap: 14px;
+    padding: 12px;
+  }
+
+  .social-item {
+    font-size: 13px;
+  }
+
+  .social-item img {
+    width: 20px;
+    height: 20px;
+  }
+}
