@@ -14,7 +14,7 @@ The website includes:
 - :fire: Modern UI Layout  
 - :purple_heart: Purple Neon Glow Style  
 - :house: House Section  
-- :camera_with_flash: Gallery Section  
+-  📸 Gallery Section  
 - :bar_chart: Server Information  
 - :globe_with_meridians: Social Media Integration  
   
