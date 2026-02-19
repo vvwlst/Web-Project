@@ -722,3 +722,16 @@ body {
         0 0 40px #6a00ff,
         0 0 80px #6a00ff;
 }
+
+/*About Servers*/
+.about-server {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: white;
+}
