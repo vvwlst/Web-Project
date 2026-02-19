@@ -22,7 +22,7 @@ The website includes:
   
 ## :tools: Built With  
   
-- HTML5  
+- HTML  
 - CSS  
 - Responsive Design  
 - Custom Neon Effects  
