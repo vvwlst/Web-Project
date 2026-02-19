@@ -20,7 +20,7 @@ The website includes:
   
 ---  
   
-## 🛠 Built With  
+## 🛠 Build With  
   
 - HTML  
 - CSS  
