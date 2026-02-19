@@ -632,3 +632,34 @@ nav a:hover{
     width: 90%;
   }
 }
+
+.gallery-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.zxg-logo img {
+    width: 300px;
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
