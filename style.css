@@ -647,14 +647,16 @@ nav a:hover{
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 20px;
     padding: 0 20px;
 }
 
 .gallery-grid img {
     width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+    height: 220px;           /* SAMAKAN tinggi semua */
+    object-fit: cover;       /* Potong rapi */
+    border-radius: 12px;
+    display: block;
 }
 
 /* Responsive mobile */
