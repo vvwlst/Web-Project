@@ -689,3 +689,36 @@ nav a:hover{
     border-radius: 15px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.6);
 }
+
+/*Text Glow Style*/
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.regards-section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Purple Neon Logo Style */
+.logo-text {
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    background: linear-gradient(90deg, #d580ff, #a200ff, #6a00ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    text-shadow:
+        0 0 5px #a200ff,
+        0 0 10px #a200ff,
+        0 0 20px #a200ff,
+        0 0 40px #6a00ff,
+        0 0 80px #6a00ff;
+}
