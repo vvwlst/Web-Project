@@ -20,7 +20,7 @@ The website includes:
   
 ---  
   
-## :tools: Built With  
+## 🛠 Built With  
   
 - HTML  
 - CSS  
@@ -29,7 +29,7 @@ The website includes:
   
 ---  
   
-## :rocket: Installation  
+## 🚀 Installation  
   
 1. Clone the repository:  
   
@@ -45,7 +45,7 @@ The website includes:
   
 ## :handshake: Kind Regards!  
   
-Made with passion for ZxG Community :purple_heart:  
+Made with passion for ZxG Community 🔥♥️
   
 ---  
   
