@@ -55,4 +55,4 @@ Made with passion for ZxG Community 🔥♥️
   
 ## :scroll: License  
   
-This project is for personaly, You can try this code now!
+This project is for personaly, You can use this code now!
