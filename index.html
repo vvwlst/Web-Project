@@ -1,254 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SA-MP Player</title>
-
-<link rel="stylesheet" href="style.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> | SA-MP Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- NAVBAR -->
 <nav>
-<div class="logo">vvxyextyy</div>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-</ul>
+  <div class="logo">vvxyextyy</div>
+  <ul>
+
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
 </nav>
 
-<!-- HOME -->
 <section id="home" class="section hero fade">
+  <div class="text">
+    <h1>Hy I'm <span class="white">vvxy</span></h1>
+    <h2><span id="typing"></span><span class="cursor">|</span></h2>
 
-<div class="text">
+    <div class="social">
+      <a href="#"><i class="fab fa-discord"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
 
-<h1>Hy I'm <span class="white">vvxy</span></h1>
-<h2><span id="typing"></span><span class="cursor">|</span></h2>
-
-<div class="social">
-<a href="#"><i class="fab fa-discord"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-github"></i></a>
-</div>
-
-</div>
-
-</section>
-
-<!-- SEARCH BAR -->
-<section class="search-section">
-
-<div class="search-wrapper">
-
-<img src="img/search.png" alt="Search" class="search-icon">
-
-<input type="text" placeholder="Search ZxG SA-MP Server..." class="search-input">
-
-<button class="search-btn">
-<i class="fas fa-search"></i>
-</button>
-
-</div>
-
-</section>
-
-<!-- ABOUT -->
 <section id="about" class="section fade">
-
-<h2>About Me</h2>
-
-<p>
-Saya bermain SA-MP sejak 2022.  
-Di server ini saya belajar drifting car, trolling,
-dan punya banyak kenangan bersama player lain.
-</p>
-
+  <h2>About Me</h2>
+  <p>
+    Saya bermain SA-MP sejak 2022.  
+    Di server ini saya belajar drifting car, trolling,
+    dan punya banyak kenangan bersama player lain.
+  </p>
 </section>
 
-<!-- STATS -->
 <section class="stats-section" id="stats">
+  <h2 class="stats-title">Player Stats</h2>
 
-<h2 class="stats-title">Player Stats</h2>
+  <div class="stat">
+    <span>Drift</span><b>100%</b>
+    <div class="bar"><div data-value="100"></div></div>
+  </div>
 
-<div class="stat">
-<span>Drift</span><b>100%</b>
-<div class="bar"><div data-value="100"></div></div>
-</div>
+  <div class="stat">
+    <span>Ban</span><b>10%</b>
+    <div class="bar"><div data-value="10"></div></div>
+  </div>
 
-<div class="stat">
-<span>Ban</span><b>10%</b>
-<div class="bar"><div data-value="10"></div></div>
-</div>
+  <div class="stat">
+    <span>Kick</span><b>10%</b>
+    <div class="bar"><div data-value="10"></div></div>
+  </div>
 
-<div class="stat">
-<span>Kick</span><b>10%</b>
-<div class="bar"><div data-value="10"></div></div>
-</div>
+  <div class="stat">
+    <span>Mute</span><b>40%</b>
+    <div class="bar"><div data-value="40"></div></div>
+  </div>
 
-<div class="stat">
-<span>Mute</span><b>40%</b>
-<div class="bar"><div data-value="40"></div></div>
-</div>
+  <div class="stat">
+    <span>Jail</span><b>50%</b>
+    <div class="bar"><div data-value="50"></div></div>
+  </div>
 
-<div class="stat">
-<span>Jail</span><b>50%</b>
-<div class="bar"><div data-value="50"></div></div>
-</div>
+  <div class="stat">
+    <span>Troll</span><b>100%</b>
+    <div class="bar"><div data-value="100"></div></div>
+  </div>
 
-<div class="stat">
-<span>Troll</span><b>100%</b>
-<div class="bar"><div data-value="100"></div></div>
-</div>
-
-<div class="health-box">
-<span>Health</span>
-<strong id="healthValue">100%</strong>
-
-<div class="health-bar">
-<div id="healthFill"></div>
-</div>
-
-</div>
-
+  <!-- HEALTH -->
+  <div class="health-box">
+    <span>Health</span>
+    <strong id="healthValue">100%</strong>
+    <div class="health-bar">
+      <div id="healthFill"></div>
+    </div>
+  </div>
 </section>
 
-<!-- LOGO -->
 <div class="zxg-logo">
-<img src="img/ZxG.png" alt="ZxG Logo">
-</div>
-
-<!-- ABOUT SERVER -->
-<section class="about-server">
-
-<h2 class="section-title">About Server</h2>
-
-<p class="statistic-text">
-
-<strong>Good evening ZxG!</strong><br><br>
-
-It’s been quite some time since we have made a major announcement, however we are extremely pleased to inform you guys of ZxG x DA!  
-DA (Drift Andreas) is a community that is currently based on RAGE:Multiplayer.
-
-Despite our long absence, we are extremely excited that things are now well on track to make this community thrive once again.
-
-</p>
-
-<div class="statistic-images">
-
-<img src="img/profile1.png" alt="">
-<img src="img/profile2.png" alt="">
-<img src="img/profile3.png" alt="">
-
-</div>
-
+    <img src="img/ZxG.png" alt="ZxG Logo">
+  </div>
 </section>
 
-<!-- DISCORD -->
+<section class="about-server">
+    <h2 class="section-title">About Server</h2>
+</section>
+
+<section class="statistic-section">
+  <p class="statistic-text">
+   **Good evening ZxG!**
+It’s been quite some time since we have made a major announcement, however we are extremely pleased to inform you guys of ZxG x DA! 
+DA (Drift Andreas) is a community that is currently based on RAGE:Multiplayer, and like us, have evolved from what was previously a renowned SA-MP community.
+Please stay tuned to our server for further updates as we continue on this path to provide a brand new RAGE:Multiplayer server filled with never-seen-before features and characteristics, just for YOU! The server has currently also been released for the RAGE:Multiplayer Alpha version. 
+
+Despite our long absence, we are extremely excited that things are now well on track to make this community thrive once again. Naturally, we will expect most of you to join us again and do what we all have grown up doing – mastering the art of GTA drift and fulfilling our ultimate car fantasies.
+Last but not the least, and certainly most importantly, we have missed all of you. Gone are the days when we would all hop on the ZxG SA-MP server and take part in so many exclusive events, or perhaps just slide our cars down the Big Ear, or maybe show off our ‘steerl0ck’ skills at San Fierro and the Las Venturas International Airport; but now its time to move on to bigger and better things that await us at Los Santos! We are sure we are not the only ones who miss hanging out together, and henceforth will be awaiting your presence eagerly at the ZxG RAGE:Multiplayer server launch!
+Please welcome to our management & development teams!
+  </p>
+
+  <div class="statistic-images">
+    <img src="img/profile1.png" alt="Gambar 1">
+    <img src="img/profile2.png" alt="Gambar 2">
+    <img src="img/profile3.png" alt="Gambar 3">
+  </div>
+</section>
+
 <div class="discord-box">
-
-<a href="https://discord.gg/zone-x-gaming-254390132776370187" target="_blank" class="discord-link">
-
-<img src="img/discord.png" alt="Discord">
-<span>Join Discord ZxG</span>
-
-</a>
-
+  <a href="https://discord.gg/zone-x-gaming-254390132776370187" target="_blank" class="discord-link">
+    <img src="img/discord.png" alt="Discord Logo">
+    <span>Join Discord ZxG</span>
+  </a>
 </div>
 
 <div class="discord-tags">
-
-<span>@ZxGNetwork</span>
-<span>@ZxGUndergroundDrifters</span>
-<span>@ZxG-2026</span>
-
+    <span>@ZxGNetwork</span>
+    <span>@ZxGUndergroundDrifters</span>
+    <span>@ZxG-2026</span>
+  </div>
 </div>
 
-<!-- SKILLS -->
 <section id="skills" class="section fade">
-
-<h2>Skills</h2>
-
-<div class="skills">
-
-<span>Car Drifting</span>
-<span>Stock Elegy</span>
-<span>SA-MP Ex Staff</span>
-<span>SteerlOck</span>
-<span>Farming</span>
-<span>Trolling</span>
-<span>Abuse</span>
-<span>Evade</span>
-<span>Multi Account</span>
-<span>Insulting</span>
-<span>Cheat</span>
-<span>Ban Player</span>
-<span>Kick Player</span>
-<span>Mute Players</span>
-<span>Warn Player</span>
-<span>Jail Player</span>
-<span>Ban Hours</span>
-
-</div>
-
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Car Drifting</span>
+    <span>Stock Elegy</span>
+    <span>SA-MP Ex Staff</span>
+    <span>SteerlOck</span>
+    <span>Farming</span>
+    <span>Trolling</span>
+    <span>Abuse</span>
+    <span>Evade</span>
+    <span>Multi Account</span>
+    <span>Insulting</span>
+    <span>Cheat</span>
+    <span>Ban Player</span>
+    <span>Kick Player</span>
+    <span>Mute Players</span>
+    <span>Warn Player</span>
+    <span>Jail Player</span>
+    <span>Ban Hours</span>
+  </div>
 </section>
 
-<!-- REGARDS -->
 <section class="regards-section">
-<h1 class="logo-text">Kind Regards!</h1>
+    <h1 class="logo-text">Kind Regards!</h1>
 </section>
 
-<!-- HOUSE -->
 <section class="house-section">
+    <h2>House</h2>
 
-<h2>House</h2>
-
-<div class="house-wrapper">
-<img src="img/house.png" alt="House">
-</div>
-
+    <div class="house-wrapper">
+        <img src="img/house.png" alt="House">
+    </div>
 </section>
 
-<!-- GALLERY -->
 <div class="gallery-section">
 
-<div class="zxg-logo">
-<img src="img/ZxG-uD.png" alt="ZxG Logo">
+    <!-- Logo -->
+    <div class="zxg-logo">
+        <img src="img/ZxG-uD.png" alt="ZxG Logo">
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid">
+        <img src="img/img1.png" alt="">
+        <img src="img/img2.png" alt="">
+        <img src="img/img3.png" alt="">
+        <img src="img/img4.png" alt="">
+        <img src="img/img5.png" alt="">
+        <img src="img/img6.png" alt="">
+    </div>
+
 </div>
 
-<div class="gallery-grid">
-
-<img src="img/img1.png">
-<img src="img/img2.png">
-<img src="img/img3.png">
-<img src="img/img4.png">
-<img src="img/img5.png">
-<img src="img/img6.png">
-
-</div>
-
-</div>
-
-<!-- SERVER INFO -->
 <div class="server-info">
+  <div class="info-item">
+    <span class="info-title">Locations</span>
+    <span class="info-value">Canada</span>
+  </div>
 
-<div class="info-item">
-<span class="info-title">Location</span>
-<span class="info-value">Canada</span>
+  <div class="info-item">
+    <span class="info-title">Slot Players</span>
+    <span class="info-value">100</span>
+  </div>
+
+  <div class="info-item">
+    <span class="info-title">Weather</span>
+    <span class="info-value">🕛 12:00 • ☁️ Sunny, Clear Sky</span>
+  </div>
+
+  <div class="info-item">
+    <span class="info-title">Gamemode</span>
+    <span class="info-value red">ZxG v3.0.14</span>
+  </div>
+
+  <div class="info-item">
+    <span class="info-title">Version</span>
+    <span class="info-value">0.3.7</span>
+  </div>
 </div>
 
-<div class="info-item">
-<span class="info-title">Slot Players</span>
-<span class="info-value">100</span>
+<div class="social-container">
+  <div class="social-item">
+    <img src="img/discord.png" alt="Discord">
+    <span>@vvxyzly</span>
+  </div>
+
+  <div class="social-item">
+    <img src="img/instagram.png" alt="Instagram">
+    <span>@hearttt.idc</span>
+  </div>
+
+  <div class="social-item">
+    <img src="img/github.png" alt="GitHub">
+    <span>@vvxystrange</span>
+  </div>
 </div>
 
-<div class="info-item">
-<span class="info-title">Weather</span>
-<span class="info-value">🕛 12:00 • ☁️ Sunny, Clear Sky</span>
+<div class="search-wrapper">
+  <img src="img/search.png" alt="Search" class="search-icon">
+
+  <div class="search-box">
+    <span class="typing-text">ZxG Samp Server</span>
+  </div>
 </div>
 
-<div class="info-item">
-<span
+<script src="script.js"></script>
+</body>
+</html>
