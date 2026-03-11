@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/vvwlst/Web-Project/blob/main/Background.png" width="900">
+  <img src="https://github.com/vvwlst/Web-Project/blob/main/profile.png" width="900">
 </p>
 
 # :globe_with_meridians: Profile Web Project  
