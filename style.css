@@ -736,17 +736,13 @@ body {
     color: white;
 }
 
-.logo{
-display:flex;
-align-items:center;
-gap:6px;
+.logo-name{
 color:white;
 font-size:18px;
-}
+padding-right:34px;
 
-.avatar{
-width:28px;
-height:28px;
-border-radius:50%;
-object-fit:cover;
+background-image:url("img/vvxy.png");
+background-size:28px 28px;
+background-repeat:no-repeat;
+background-position:right center;
 }
