@@ -736,17 +736,36 @@ body {
     color: white;
 }
 
-.nav-name{
-color:#e5e5e5;
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#4f6f77;
+padding:10px 20px;
+}
+
+.nav-left{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.nav-text{
+color:#e6e6e6;
 font-size:18px;
-margin-right:8px;
+font-family:Arial, sans-serif;
 }
 
 .nav-icon{
-width:32px;
-height:32px;
+width:30px;
+height:30px;
 border-radius:50%;
 object-fit:cover;
-vertical-align:middle;
 }
 
+.nav-right a{
+color:#e6e6e6;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
