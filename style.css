@@ -736,3 +736,17 @@ body {
     color: white;
 }
 
+.nav-name{
+color:#e5e5e5;
+font-size:18px;
+margin-right:8px;
+}
+
+.nav-icon{
+width:32px;
+height:32px;
+border-radius:50%;
+object-fit:cover;
+vertical-align:middle;
+}
+
