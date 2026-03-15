@@ -736,24 +736,15 @@ body {
     color: white;
 }
 
-.navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:#4f6f77;
-padding:10px 20px;
-}
-
 .nav-left{
-display:flex;
+display:inline-flex;
 align-items:center;
-gap:10px;
+gap:6px;
 }
 
 .nav-text{
-color:#e6e6e6;
+color:white;
 font-size:18px;
-font-family:Arial, sans-serif;
 }
 
 .nav-icon{
@@ -761,11 +752,4 @@ width:28px;
 height:28px;
 border-radius:50%;
 object-fit:cover;
-}
-
-.nav-right a{
-color:#e6e6e6;
-text-decoration:none;
-margin-left:20px;
-font-size:15px;
 }
