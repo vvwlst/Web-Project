@@ -736,11 +736,23 @@ body {
     color: white;
 }
 
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:10px 25px;
+background:#4f6f77;
+}
+
 .logo{
 display:flex;
 align-items:center;
+}
+
+.logo-text{
 color:white;
 font-size:18px;
+margin-right:4px;
 }
 
 .logo-icon{
@@ -748,4 +760,11 @@ width:28px;
 height:28px;
 border-radius:50%;
 object-fit:cover;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:15px;
 }
