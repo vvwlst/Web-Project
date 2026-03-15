@@ -736,18 +736,15 @@ body {
     color: white;
 }
 
-.nav-left{
-display:inline-flex;
+.logo{
+display:flex;
 align-items:center;
-gap:4px;
-}
-
-.nav-text{
+gap:6px;
 color:white;
 font-size:18px;
 }
 
-.nav-icon{
+.avatar{
 width:28px;
 height:28px;
 border-radius:50%;
