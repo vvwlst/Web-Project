@@ -735,3 +735,10 @@ body {
     letter-spacing: 3px;
     color: white;
 }
+
+.search-icon{
+color:white;
+font-size:18px;
+cursor:pointer;
+margin-left:20px;
+}
