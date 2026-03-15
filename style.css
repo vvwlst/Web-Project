@@ -735,3 +735,22 @@ body {
     letter-spacing: 3px;
     color: white;
 }
+
+.logo-area{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.logo-text{
+color: white;
+font-size: 18px;
+font-weight: 500;
+}
+
+.profile-icon{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+object-fit: cover;
+}
