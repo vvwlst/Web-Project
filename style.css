@@ -776,30 +776,3 @@ border-radius:12px;
 transition:0.3s;
 cursor:pointer;
 }
-
-/* Hover modern */
-.gallery-grid img:hover{
-transform:scale(1.05);
-filter:brightness(1.2);
-}
-
-.house-section{
-text-align:center;
-padding:60px 20px;
-}
-
-/* CARD HITAM TRANSPARAN */
-.house-card{
-margin:30px auto;
-width:90%;
-max-width:400px;
-padding:20px;
-background:rgba(0,0,0,0.7);
-border-radius:15px;
-backdrop-filter:blur(10px);
-}
-
-/* GAMBAR */
-.house-card{
-box-shadow:0 0 20px rgba(0,0,0,0.8);
-}
