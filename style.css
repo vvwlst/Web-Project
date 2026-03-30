@@ -776,21 +776,3 @@ border-radius:12px;
 transition:0.3s;
 cursor:pointer;
 }
-
-.team-list{
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%, -50%);
-
-color:white;
-font-size:15px;
-line-height:1.8;
-
-text-align:left;
-}
-
-.cyan{
-color:#00eaff;
-font-weight:600;
-}
