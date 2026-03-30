@@ -778,10 +778,16 @@ cursor:pointer;
 }
 
 .team-list{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+
 color:white;
 font-size:15px;
 line-height:1.8;
-padding:20px;
+
+text-align:left;
 }
 
 .cyan{
