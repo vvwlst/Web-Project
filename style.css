@@ -782,5 +782,13 @@ color:white;
 font-size:15px;
 line-height:1.8;
 padding:20px;
-margin-top:-120px;
+
+
+margin-top:20px;
+margin-bottom:40px;
+}
+
+.cyan{
+color:#00eaff;
+font-weight:600;
 }
