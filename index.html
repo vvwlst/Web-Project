@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
-    /* Fix background image not appearing behind the page. */
-    html, body {
+    /* Responsive background: centered and scaled for desktop and mobile. */
+    html {
       min-height: 100%;
+      background-color: #000;
     }
 
     body {
       min-height: 100vh;
+      min-height: 100svh;
       background-color: #000 !important;
       background-image: url("./img/background/background.png") !important;
       background-position: center center !important;
@@ -22,9 +24,23 @@
       background-attachment: fixed !important;
     }
 
+    /* Phones and small tablets: avoid fixed-background glitches on mobile browsers. */
     @media (max-width: 768px) {
       body {
+        min-height: 100vh;
+        min-height: 100svh;
+        background-position: center center !important;
+        background-size: cover !important;
         background-attachment: scroll !important;
+      }
+    }
+
+    /* Desktop and larger screens. */
+    @media (min-width: 769px) {
+      body {
+        background-position: center center !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
       }
     }
   </style>
