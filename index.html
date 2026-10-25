@@ -6,6 +6,28 @@
   <title> [SD]vvxy / ZxG.NotHeartzz - SA-MP Web</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Fix background image not appearing behind the page. */
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      background-color: #000 !important;
+      background-image: url("./img/background/background.png") !important;
+      background-position: center center !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed !important;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background-attachment: scroll !important;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -211,7 +233,8 @@ Please welcome to our management & development teams!
     <!-- Logo -->
     <div class="zxg-logo">
         <img src="img/ZxG-uD.png" alt="ZxG Logo">
-    </div>
+    </div>
+
 
 <div class="server-info">
   <div class="info-item">
